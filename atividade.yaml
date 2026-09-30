@@ -1,0 +1,25 @@
+name: atividade
+source code: |-
+  input: '00001111'
+  blank: ' '
+  start state: q0
+  table:
+    q0:
+      0: {write: X, R: q1}
+      Y: {R: q3}
+    q1:
+      [0, Y]: R
+      1: {write: Y, L: q2}
+    q2:
+      [0, Y]: L
+      X: {R: q0}
+    q3:
+      Y: R
+      ' ': {R: accept}
+    accept:
+positions:
+  q0: {x: 376.24, y: 195.94, fixed: false}
+  q1: {x: 243.02, y: 238.39, fixed: false}
+  q2: {x: 345.21, y: 337.08, fixed: false}
+  q3: {x: 514.64, y: 169.37, fixed: false}
+  accept: {x: 513.53, y: 316.06}
