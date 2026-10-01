@@ -7,7 +7,6 @@ Ao final da atividade, o estudante deverá ser capaz de:
 - Reconhecer que existem problemas que não podem ser resolvidos por algoritmos, compreendendo os limites da computação.
 
 # 2. Conteúdo
-
 - Conceito de Máquina de Turing.
 - Fita, cabeça de leitura/escrita e estados.
 - Alfabeto e regras de transição.
